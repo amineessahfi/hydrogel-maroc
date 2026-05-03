@@ -1,25 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 52" fill="none">
-  <defs>
-    <linearGradient id="wg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="100%" stop-color="#10b981"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 52" fill="none">
+  <!-- Blue circle background (water halo) -->
+  <circle cx="24" cy="26" r="20" fill="#3b82f6" opacity="0.08"/>
 
-  <!-- Blue circle (water) -->
-  <circle cx="24" cy="26" r="20" fill="#3b82f6" opacity="0.1"/>
-  <!-- Professional droplet icon (Lucide path, scaled 2x) -->
-  <g transform="translate(12, 12) scale(1.0)">
-    <path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"
-          fill="#3b82f6" stroke="none"/>
+  <!-- قطرة in Cairo -->
+  <text x="0" y="34" font-family="Cairo, sans-serif" font-weight="800" font-size="22" fill="#3b82f6">قطرة</text>
+
+  <!-- S -->
+  <text x="96" y="33" font-family="Sora, sans-serif" font-weight="700" font-size="22" fill="#fafafa" letter-spacing="-0.5">S</text>
+
+  <!-- O replaced by droplet -->
+  <g transform="translate(110, 18)">
+    <path d="M10 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C4 11.1 3 13 3 15a7 7 0 0 0 7 7z" fill="#3b82f6" stroke="none"/>
+    <circle cx="10" cy="10" r="1.8" fill="#fafafa"/>
   </g>
 
-  <!-- Green accent dot below (soil) -->
-  <circle cx="24" cy="42" r="2.5" fill="#10b981"/>
+  <!-- l -->
+  <text x="132" y="33" font-family="Sora, sans-serif" font-weight="700" font-size="22" fill="#10b981" letter-spacing="-0.5">l</text>
 
-  <!-- Wordmark -->
-  <text x="56" y="34" font-family="Sora, sans-serif" font-weight="700" font-size="22" fill="#fafafa" letter-spacing="-0.5">
-    <tspan fill="#3b82f6" font-family="Cairo, sans-serif" font-weight="800">قطرة</tspan><tspan fill="#10b981">Sol</tspan>
-  </text>
-  <text x="58" y="46" font-family="Sora, sans-serif" font-weight="600" font-size="7" fill="#a1a1aa" letter-spacing="2.8">MAROC</text>
+  <!-- MAROC tagline -->
+  <text x="0" y="46" font-family="Sora, sans-serif" font-weight="600" font-size="7" fill="#a1a1aa" letter-spacing="2.8">MAROC</text>
 </svg>
