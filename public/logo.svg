@@ -19,7 +19,7 @@
 
   <!-- Wordmark -->
   <text x="56" y="34" font-family="Sora, sans-serif" font-weight="700" font-size="22" fill="#fafafa" letter-spacing="-0.5">
-    <tspan fill="#3b82f6">قطرة</tspan><tspan fill="#10b981">Sol</tspan>
+    <tspan fill="#3b82f6" font-family="Cairo, sans-serif" font-weight="800">قطرة</tspan><tspan fill="#10b981">Sol</tspan>
   </text>
   <text x="58" y="46" font-family="Sora, sans-serif" font-weight="600" font-size="7" fill="#a1a1aa" letter-spacing="2.8">MAROC</text>
 </svg>

@@ -14,8 +14,8 @@ export function Logo({ size = "default", showTagline = true }: { size?: "sm" | "
           <circle cx="24" cy="40" r="2.5" fill="#10b981"/>
         </svg>
       </div>
-      <span className={`font-display tracking-tight ${textSize}`}>
-        <span className="text-[#3b82f6]">قطرة</span><span className="text-[#10b981]">Sol</span>
+      <span className={`tracking-tight ${textSize}`}>
+        <span className="text-[#3b82f6]" style={{ fontFamily: 'Cairo, sans-serif', fontWeight: 800 }}>قطرة</span><span className="text-[#10b981] font-display">Sol</span>
       </span>
       {showTagline && <span className="hidden sm:inline text-[10px] font-semibold text-text-tertiary tracking-[0.2em] uppercase ml-0.5">Maroc</span>}
     </Link>
