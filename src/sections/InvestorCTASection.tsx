@@ -9,28 +9,27 @@ export default function InvestorCTASection() {
       <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-brand-700 via-brand-800 to-brand-900 p-14 md:p-20 text-center">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(16,185,129,0.15),transparent_70%)]" />
         <div className="absolute top-10 right-10 h-80 w-80 rounded-full bg-brand-500/10 blur-3xl" />
-        <div className="absolute bottom-0 left-10 h-64 w-64 rounded-full bg-accent-500/5 blur-3xl" />
         <div className="relative">
           <h2 className="mb-4 font-display text-3xl font-bold tracking-tight text-white md:text-5xl">
-            Rejoignez Notre Levée de Fonds
+            Demarrez Avec Nous
           </h2>
           <p className="mx-auto mb-4 max-w-2xl text-lg text-brand-200">
-            Nous levons 8 millions de dirhams pour déployer HydroGel à travers la région de Rhamna. Objectif : 5 000 hectares traités d'ici 2028.
+            HydroGel Maroc cherche un premier financement pour lancer la distribution d'hydrogel dans la region de Rhamna. Bootstrap, INDH, ou partenaire — on commence petit et on prouve.
           </p>
           <div className="flex items-center justify-center gap-6 mb-10 text-sm text-brand-300 flex-wrap">
-            <span className="flex items-center gap-1.5"><div className="h-1.5 w-1.5 rounded-full bg-brand-400" /> 2M MAD déjà engagés</span>
-            <span className="flex items-center gap-1.5"><div className="h-1.5 w-1.5 rounded-full bg-brand-400" /> Partenaire industriel sécurisé</span>
-            <span className="flex items-center gap-1.5"><div className="h-1.5 w-1.5 rounded-full bg-brand-400" /> Clôture T4 2026</span>
+            <span className="flex items-center gap-1.5"><div className="h-1.5 w-1.5 rounded-full bg-brand-400" /> Phase: amorcage</span>
+            <span className="flex items-center gap-1.5"><div className="h-1.5 w-1.5 rounded-full bg-brand-400" /> Base: Benguerir, Rhamna</span>
+            <span className="flex items-center gap-1.5"><div className="h-1.5 w-1.5 rounded-full bg-brand-400" /> Contact: amine@hydrogel.ma</span>
           </div>
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-            <Link to="/contact">
+            <Link to="/contact?type=investor">
               <Button size="xl" className="rounded-2xl bg-white text-brand-800 hover:bg-brand-50 shadow-xl shadow-black/30 font-display font-semibold">
-                <Download className="mr-2 h-5 w-5" /> Télécharger le Pitch Deck
+                <Download className="mr-2 h-5 w-5" /> Pitch Deck (PDF)
               </Button>
             </Link>
-            <Link to="/contact?type=investor">
+            <Link to="/contact">
               <Button variant="outline" size="xl" className="rounded-2xl border-2 border-white/25 text-white hover:bg-white/10 font-display">
-                Contacter les Fondateurs <ChevronRight className="ml-2 h-5 w-5" />
+                Contacter le Fondateur <ChevronRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
           </div>
