@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
-import { Droplets, ShoppingCart } from "lucide-react"
+import { ShoppingCart } from "lucide-react"
 import { Button } from "../components/ui/button"
+import { Logo } from "../components/Logo"
 import { MobileNav } from "../components/MobileNav"
 import { ThemeToggle } from "../components/ThemeToggle"
 import { useCart } from "../lib/cart"
@@ -45,12 +46,7 @@ export default function HomePage() {
 
       <header className="sticky top-0 z-50 glass border-b border-border/40">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3.5">
-          <Link to="/" className="flex items-center gap-2.5 text-lg font-bold text-text no-underline shrink-0">
-            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-brand-600 text-white shadow-lg shadow-brand-500/25">
-              <Droplets className="h-5 w-5" />
-            </div>
-            <span className="font-display tracking-tight">Hydro<span className="text-brand-500">Gel</span></span>
-          </Link>
+          <Logo />
           <nav className="hidden items-center gap-1 md:flex">
             {["#solution","#why-rhamna","#market","#competitors","#traction","#use-of-funds","#timeline","#team"].map((to) => (
               <a key={to} href={to} className="rounded-lg px-2.5 py-2 text-xs font-medium text-text-secondary no-underline transition-colors hover:bg-muted hover:text-text">
@@ -92,12 +88,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-12 md:grid-cols-4">
             <div>
-              <Link to="/" className="flex items-center gap-2.5 text-lg font-bold text-text no-underline">
-                <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-brand-600 text-white shadow-lg shadow-brand-500/25">
-                  <Droplets className="h-5 w-5" />
-                </div>
-                <span className="font-display">Hydro<span className="text-brand-500">Gel</span></span>
-              </Link>
+              <Logo />
               <p className="mt-4 text-sm leading-relaxed text-text-secondary">
                 Technologie hydrique agricole pour un avenir résilient face à la sécheresse. Science marocaine, impact local.
               </p>

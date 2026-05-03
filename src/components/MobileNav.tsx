@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react"
 import { Link, useLocation } from "react-router-dom"
-import { Menu, X, Droplets } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { Button } from "./ui/button"
+import { Logo } from "./Logo"
 
 const links = [
   { to: "/", label: "Accueil" },
@@ -32,12 +33,9 @@ export function MobileNav() {
           <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" onClick={() => setOpen(false)} />
           <div className="absolute right-0 top-0 h-full w-72 bg-surface-elevated shadow-2xl border-l border-border/50">
             <div className="flex items-center justify-between px-5 py-4 border-b border-border/50">
-              <Link to="/" onClick={() => setOpen(false)} className="flex items-center gap-2.5 text-lg font-bold text-text no-underline">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-brand-500 to-brand-600 text-white">
-                  <Droplets className="h-4 w-4" />
-                </div>
-                <span className="font-display">Hydro<span className="text-brand-500">Gel</span></span>
-              </Link>
+              <div onClick={() => setOpen(false)}>
+                <Logo size="sm" showTagline={false} />
+              </div>
               <button onClick={() => setOpen(false)} className="flex h-9 w-9 items-center justify-center rounded-xl border border-border hover:bg-muted cursor-pointer transition-colors" aria-label="Fermer">
                 <X className="h-5 w-5" />
               </button>
