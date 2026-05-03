@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@mokei/mcp-sqlite": "^0.6.0",
     "@playwright/mcp": "^0.0.73",
     "@tailwindcss/vite": "^4.2.4",
     "@types/node": "^24.12.2",

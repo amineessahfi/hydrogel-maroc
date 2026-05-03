@@ -11,6 +11,10 @@
     "playwright": {
       "command": "npx",
       "args": ["@playwright/mcp"]
+    },
+    "sqlite": {
+      "command": "npx",
+      "args": ["@mokei/mcp-sqlite", "--db", "data/hydrogel.db"]
     }
   }
 }
