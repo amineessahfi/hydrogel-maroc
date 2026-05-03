@@ -107,7 +107,7 @@ export default function HomePage() {
             ))}
           </div>
           <div className="mt-12 border-t border-border/30 pt-8 text-center text-sm text-text-tertiary">
-            &copy; {new Date().getFullYear()} HydroGel Maroc. Tous droits réservés.
+            &copy; {new Date().getFullYear()} QatraSol Maroc. Tous droits réservés.
           </div>
         </div>
       </footer>

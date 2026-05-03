@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@genwave/svgmaker-mcp": "^0.4.0",
     "@mokei/mcp-sqlite": "^0.6.0",
     "@playwright/mcp": "^0.0.73",
     "@tailwindcss/vite": "^4.2.4",

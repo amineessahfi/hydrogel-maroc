@@ -18,6 +18,10 @@
     "sqlite": {
       "command": "npx",
       "args": ["@mokei/mcp-sqlite", "--db", "data/hydrogel.db"]
+    },
+    "svgmaker": {
+      "command": "npx",
+      "args": ["@genwave/svgmaker-mcp"]
     }
   }
 }
